@@ -18,11 +18,11 @@ function App() {
         <img className='LogoH' src={Midas} alt="" />
         <nav>
           <NavLink to='/'>АКЦИИ</NavLink>
-          <NavLink to='/profile'>ГОРЯЧЕЕ</NavLink>
+          <NavLink to='*'>ГОРЯЧЕЕ</NavLink>
           <NavLink to='*'>ХОЛОДНОЕ</NavLink>
           <NavLink to='/profile'>СВЯЖАЯ ВЫПЕЧКА</NavLink>
-          <NavLink to='/'>ДЕСЕРТЫ</NavLink>
-          <NavLink to='*'>НАПИТКИ</NavLink>
+          <NavLink to='/profile'>ДЕСЕРТЫ</NavLink>
+          <NavLink to='/profile'>НАПИТКИ</NavLink>
         </nav>
         <div className="funct">
           <img src={Search} alt="Error" />
