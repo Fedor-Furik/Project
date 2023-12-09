@@ -1,3 +1,4 @@
+import "./Home.css"
 export default function Home() {
-    return <div>Home</div>  
+    return <div><p className="pH">Home</p></div>
 }

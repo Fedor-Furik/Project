@@ -1,4 +1,4 @@
 import "./Profile.css"
 export default function Profile() {
-    return <div><p>Profile</p></div>
+    return <div><p className="pP">Profile</p></div>
 }

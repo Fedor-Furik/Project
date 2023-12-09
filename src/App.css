@@ -91,3 +91,13 @@ nav a{
     cursor: pointer;
     text-decoration: none;
 }
+.funct{
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.funct img{
+    cursor: pointer;
+    width: 20%;
+}

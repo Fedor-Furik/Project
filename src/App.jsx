@@ -25,9 +25,9 @@ function App() {
           <NavLink to='*'>НАПИТКИ</NavLink>
         </nav>
         <div className="funct">
-          <img src={Search} alt="" />
-          <img src={Profil} alt="" />
-          <img src={Basket} alt="" />
+          <img src={Search} alt="Error" />
+          <img src={Profil} alt="Error" />
+          <img src={Basket} alt="Error" />
         </div>
       </header>
       <main>
