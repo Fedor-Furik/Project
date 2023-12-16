@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <header>
-        <img className='LogoH' src={Midas} alt="" />
+        <img className='LogoH' src={Midas} alt="Error" />
         <nav>
           <NavLink to='/'>АКЦИИ</NavLink>
           <NavLink to='*'>ГОРЯЧЕЕ</NavLink>
@@ -38,7 +38,7 @@ function App() {
         </Routes>
       </main>
       <footer>
-        <div className="FootBlok1"><div className="PodBLok1F"><img className="MidasPngFoot" src={Midas} alt="" /><p>Обратная связь</p><p>Доставка</p><p>Оплата</p><p>Контакты</p></div><div className="PodBLok2F"><h5>+7 (499) 841-67-29</h5><p>delivery@midas.rest</p></div></div>
+        <div className="FootBlok1"><div className="PodBLok1F"><img className="MidasPngFoot" src={Midas} alt="Error" /><p>Обратная связь</p><p>Доставка</p><p>Оплата</p><p>Контакты</p></div><div className="PodBLok2F"><h5>+7 (499) 841-67-29</h5><p>delivery@midas.rest</p></div></div>
         <div className="FootBlok2"><h6>© 2009–2019, ООО «MIDAS», официальный сайт</h6><div className="PodFootBLok"><p>Политика конфиденциальности и оферта</p><p>Пользовательское соглашение</p></div></div>
       </footer>
     </Router>
