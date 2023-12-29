@@ -23,6 +23,14 @@ import Group3 from "./assetsBluda/Group3.png"
 import Group4 from "./assetsBluda/Group4.png"
 import Group5 from "./assetsBluda/Group5.png"
 export default function Home() {
+    function getUpToWork(title,price,img){
+        let mex = document.createElement('div')
+        mex.className = ""
+        img.className = ""
+        title.className = ""
+        price.className = ""
+        mex.appendChild()
+    }
     return(
         <div className="ContainH">
             <div className="BlockH1">
@@ -32,7 +40,7 @@ export default function Home() {
                     <p className="numberPB1">+7 (499) 841-67-29</p>
                     <h6>delivery@midas.rest</h6>
                     <img className="Losos" src={Losos} alt="Error" />
-                    <button className="BasketB"><NavLink to='/basket'></NavLink></button>
+                    <NavLink to='/backet'><button className="BasketB"></button></NavLink>
                     <img className="Backrooms2" src={Toch2} alt="Error" />
                 </div>
                 <img className="hYamI" src={Yammi} alt="" />
@@ -50,7 +58,7 @@ export default function Home() {
                             <p>Хачапури "Лодочка" с начинкой из расплавленного сыра сулугуни, яйца и масла.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>470 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -60,7 +68,7 @@ export default function Home() {
                             <p>Пряные хинкали с начинкой из ароматной баранины со специями.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>495 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -70,7 +78,7 @@ export default function Home() {
                             <p>Пряные хинкали с начинкой из ароматной баранины со специями.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>520 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -80,7 +88,7 @@ export default function Home() {
                             <p>Греческий йогурт с ягодами, 3 хинкали традиционных, салат цезарь, пирожки с уткой, морс.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>1 148 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -90,7 +98,7 @@ export default function Home() {
                             <p>Невероятно ароматная лепёшка с сыром сулугуни внутри и снаружи.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>490 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -100,7 +108,7 @@ export default function Home() {
                             <p>По семейному рецепту: нежнейшее рубленное мясо с экологически чистыми ферме...</p>
                             <div className="PodPodPodBlH221">
                                 <h3>430 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                     </div>
@@ -112,7 +120,7 @@ export default function Home() {
                             <p>Пряные хинкали с начинкой из ароматной баранины со специями.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>495 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -122,7 +130,7 @@ export default function Home() {
                             <p>Невероятно ароматная лепёшка с сыром сулугуни внутри и снаружи.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>490 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -132,7 +140,7 @@ export default function Home() {
                             <p>Хачапури "Лодочка" с начинкой из расплавленного сыра сулугуни, яйца и масла.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>470 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -142,7 +150,7 @@ export default function Home() {
                             <p>По семейному рецепту: нежнейшее рубленное мясо с экологически чистыми ферме...</p>
                             <div className="PodPodPodBlH221">
                                 <h3>430 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -152,7 +160,7 @@ export default function Home() {
                             <p>Пряные хинкали с начинкой из ароматной баранины со специями.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>520 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                         <div className="BludoH">
@@ -162,7 +170,7 @@ export default function Home() {
                             <p>Греческий йогурт с ягодами, 3 хинкали традиционных, салат цезарь, пирожки с уткой, морс.</p>
                             <div className="PodPodPodBlH221">
                                 <h3>1 148 ₽</h3>
-                                <button className="BasketB2"></button>
+                                <NavLink to='/backet'><button className="BasketB2"></button></NavLink>
                             </div>
                         </div>
                     </div>
@@ -173,22 +181,26 @@ export default function Home() {
                     <h4>Меню</h4>
                 </div>
                 <div className="NedoSlid">
-                    <div className="blockNSl0"><p>АКЦИИ🔥</p></div>
-                    <div className="blockNSl1">
+                    <NavLink to="/Actions"><div className="blockNSl0"><p>АКЦИИ🔥</p></div></NavLink>
+                    <NavLink to="/HotBluds">
+                      <div className="blockNSl1">
                         <div className="podD2">
                             <div className="podpodD2"><p>Горячие</p></div>
                             <div className="podpodD2"><p>блюда</p></div>
                         </div>
-                    </div> 
-                    <div className="blockNSl2"><p>Супы</p></div>
-                    <div className="blockNSl3"><p>Хинкали</p></div>
-                    <div className="blockNSl4">
+                      </div> 
+                    </NavLink>
+                    <NavLink to="/Soups"><div className="blockNSl2"><p>Супы</p></div></NavLink>
+                    <NavLink to="/Xinkali"><div className="blockNSl3"><p>Хинкали</p></div></NavLink>
+                    <NavLink to="/ColfSnacks">
+                      <div className="blockNSl4">
                         <div className="podD2">
-                            <div className="podpodD2"><NavLink to="snaks"><p>Холодные</p></NavLink></div>
-                            <div className="podpodD2"><NavLink to="snaks"><p>Закуски</p></NavLink></div>
+                            <div className="podpodD2"><p>Холодные</p></div>
+                            <div className="podpodD2"><p>Закуски</p></div>
                         </div>
-                    </div> 
-                    <div className="blockNSl5"><p>Салаты</p></div>
+                      </div>
+                    </NavLink>
+                    <NavLink to="Salats"><div className="blockNSl5"><p>Салаты</p></div></NavLink>     
                 </div>
             </div>
         </div>

@@ -72,7 +72,7 @@
     height: 68px;
     position: absolute;
     left: 47.32%;
-    top: 1228px;
+    top: 1170px;
 }
 .BasketB2{
     border: none;
@@ -147,7 +147,7 @@
 }
 .NedoSlid div{
     cursor: pointer;
-    width: 15%;
+    width: 100%;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -156,6 +156,10 @@
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.NedoSlid a{
+    width: 15%;
+    text-decoration: none;
 }
 .ZoglB{
     color: white;
@@ -166,7 +170,6 @@
 }
 .blockNSl0{
     height: 500px;
-    font-size: 240%;
     background-image: url(./assetsBluda/Group0.png);
 }
 .blockNSl1{
@@ -175,12 +178,10 @@
 }
 .blockNSl2{
     height: 500px;
-    font-size: 240%;
     background-image: url(./assetsBluda/Group2.png);
 }
 .blockNSl3{
     height: 500px;
-    font-size: 240%;
     background-image: url(./assetsBluda/Group3.png);
 }
 .blockNSl4{
@@ -189,24 +190,85 @@
 }
 .blockNSl5{
     height: 500px;
-    font-size: 240%;
     background-image: url(./assetsBluda/Group5.png);
+}
+.blockNSl0:hover{
+    scale: 110%;
+    transition:2s;
+}
+.blockNSl1:hover{
+    scale: 110%;
+    transition:2s;
+}
+.blockNSl2:hover{
+    scale: 110%;
+    transition:2s;
+}
+.blockNSl3:hover{
+    scale: 110%;
+    transition:2s;
+}
+.blockNSl4:hover{
+    scale: 110%;
+    transition:2s;
 }
 .blockNSl5:hover{
     scale: 110%;
     transition:2s;
 }
+.blockNSl0:hover p{
+    text-decoration: underline;
+}
+.blockNSl1:hover p{
+    text-decoration: underline;
+}
+.blockNSl2:hover p{
+    text-decoration: underline;
+}
+.blockNSl3:hover p{
+    text-decoration: underline;
+}
+.blockNSl4:hover p{
+    text-decoration: underline;
+}
 .blockNSl5:hover p{
     text-decoration: underline;
 }
 .podpodD2{
-    color: white;
-    text-decoration: none;
-    font-size: 220%;
     display: flex;
     justify-content: center;
 }
 .podpodD2 p{
+    color: white;
+    text-decoration: none;
+    font-size: 220%;
+}
+.blockNSl0 p{
+    color: white;
+    text-decoration: none;
+    font-size: 220%;
+}
+.blockNSl1 p{
+    color: white;
+    text-decoration: none;
+    font-size: 220%;
+}
+.blockNSl2 p{
+    color: white;
+    text-decoration: none;
+    font-size: 220%;
+}
+.blockNSl3 p{
+    color: white;
+    text-decoration: none;
+    font-size: 220%;
+}
+.blockNSl4 p{
+    color: white;
+    text-decoration: none;
+    font-size: 220%;
+}
+.blockNSl5 p{
     color: white;
     text-decoration: none;
     font-size: 220%;
